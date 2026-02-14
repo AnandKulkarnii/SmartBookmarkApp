@@ -1,7 +1,8 @@
 {
   "name": "smart-bookmark-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "A modern bookmark manager with real-time sync and Google OAuth",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,18 +10,30 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.95.3",
     "next": "16.1.6",
+    "postcss": "^8.5.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
-    "tailwindcss": "^4",
+    "tailwindcss": "^4.1.18",
     "typescript": "^5"
-  }
+  },
+  "keywords": [
+    "bookmarks",
+    "nextjs",
+    "supabase",
+    "oauth",
+    "realtime"
+  ],
+  "author": "",
+  "license": "MIT"
 }
